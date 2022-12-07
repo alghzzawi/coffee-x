@@ -1,3 +1,29 @@
+# LAB - Class 23
+
+<br>
+
+## Project: DjangoX and Custom Users
+
+<br>
+
+## Author: Mohammad AlGhzawi
+
+<br>
+
+# Links and Resources
+* https://github.com/alghzzawi/coffee-x/pull/1
+
+## How to initialize/run your application (where applicable)
+
+1. pip install -r requirements.txt
+2. python manage.py runserver
+
+<br>
+
+<br>
+
+
+
 > A batteries-included Django starter project. To learn more try the books [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).
 
 ## 🚀 Features

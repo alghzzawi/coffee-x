@@ -1,0 +1,33 @@
+{% extends '_base.html' %}
+{% block content %}
+
+<h1>coffee list</h1>
+
+{% for coffee in allcoffee %}
+
+<h3>name: {{coffee.title}}</h3>
+<img src="{{coffee.img_url}}" alt={{coffee.title}}>
+
+<br>
+
+<button><a href="{% url 'coffee_detail' coffee.pk %}" >Detail</a></button>
+<button><a href="{% url 'coffee_update' coffee.pk %}" >Update</a></button>
+<button><a href="{% url 'coffee_delete' coffee.pk %}" >Delete</a></button>
+
+<br>
+
+<br>
+
+<br>
+
+{% endfor %}
+
+<br>
+
+<br>
+
+<br>
+
+<button><a href="{% url 'coffee_create' %}" >Create</a></button>
+
+{% endblock content %}

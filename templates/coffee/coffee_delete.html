@@ -1,0 +1,17 @@
+{% extends '_base.html' %}
+{% block content %}
+
+<h1>Are you sure you want to delete {{coffee.title}}</h1>
+<form method="post">
+    {% csrf_token %}
+
+    <input type="submit" value="Yes" />
+</form>
+
+<br>
+
+<br>
+
+<button><a href="{% url 'coffee_list' %}" >Back</a></button>
+
+{% endblock content %}
